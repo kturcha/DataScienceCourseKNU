@@ -83,3 +83,30 @@ length_NA <- length(which(is.na(vector_with_NA)))
 length_NA
 ```
 Результат: **3**
+#### 7.	Створити довільний data frame та вивести в консоль.
+```{r}
+n <- c(2, 3, 5)
+s <- c("aa", "bb", "cc")
+b <- c(TRUE, FALSE, TRUE)
+data_frame <- data.frame(num = n, char = s, bool = b)
+data_frame
+```
+Результат:
+
+|    |num |char|bool |
+|----|----|----|---- |
+|1   |2   |aa  |TRUE |
+|2   |3   |bb  |FALSE|
+|3   |5   |cc  |TRUE |
+#### 8.	Змінити імена стовпців цього data frame.
+```{r}
+names(data_frame) <- c("numbers", "characters", "booleans")
+data_frame
+```
+Результат:
+
+|    |numbers |characters|booleans |
+|----|-----   |-----     |-----    |
+|1   |2       |aa        |TRUE     |
+|2   |3       |bb        |FALSE    |
+|3   |5       |cc        |TRUE     |
