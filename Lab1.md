@@ -62,3 +62,24 @@ rbind_matrix
 | 3.9 | 131 | 2.8 |
 | 0   | 2.2 | 4.6 |
 | 2   | 7   | 5.1 |
+
+#### 4.	Створити довільний список (list), в який включити всі базові типи.
+```{r}
+basic_list <- list(6, 6L, FALSE, 5 + 11i, "hello")
+```
+#### 5. Створити фактор з трьома рівнями «baby», «child», «adult».
+```{r}
+x <- factor(c("baby", "child", "adult", "adult", "adult", "child", "child", "baby", "baby"), levels = c("baby", "child", "adult"))
+```
+#### 6.	Знайти індекс першого значення NA в векторі 1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11. Знайти кількість значень NA.
+```{r}
+vector_with_NA <- c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11)
+first_index_NA <- min(which(is.na(vector_with_NA)))
+first_index_NA
+```
+Результат: **5**
+```{r}
+length_NA <- length(which(is.na(vector_with_NA)))
+length_NA
+```
+Результат: **3**
