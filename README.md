@@ -10,10 +10,10 @@ In this repo you can find:
 
 * [Lab 1](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab1.md)
 
-* [Lab 2]
+* [Lab 2](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab2.md)
 
-* [Lab 3]
+* [Lab 3](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab3.md)
 
-* [Lab 4]
+* [Lab 4](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab4.md)
 
-* [Lab 5]
+* [Lab 5](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab5.md)
