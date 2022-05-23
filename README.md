@@ -8,12 +8,12 @@ Here's some work with
 
 In this repo you can find:
 
-* [Lab 1](https://github.com/islamw/DataScienceCourseKNU/blob/master/Lab1.md)
+* [Lab 1](https://github.com/kturcha/DataScienceCourseKNU/blob/main/Lab1.md)
 
-* [Lab 2](https://github.com/islamw/DataScienceCourseKNU/blob/master/Lab2.md)
+* [Lab 2]
 
-* [Lab 3](https://github.com/islamw/DataScienceCourseKNU/blob/master/Lab3.md)
+* [Lab 3]
 
-* [Lab 4](https://github.com/islamw/DataScienceCourseKNU/blob/master/Lab4.md)
+* [Lab 4]
 
-* [Lab 5](https://github.com/islamw/DataScienceCourseKNU/blob/master/Lab5.md)
+* [Lab 5]
