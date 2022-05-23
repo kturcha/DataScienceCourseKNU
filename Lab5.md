@@ -1,7 +1,7 @@
 ### Для лабораторної роботи необхідно завантажити zip файл з даними за посиланням: «https://www.dropbox.com/s/i9wi47oyhfb7qlh/rprog_data_specdata.zip?dl=0».
 
 ```{r}
-setwd("/Users/katerynaturchaninova/Downloads/specdata")
+setwd("/Users/katerynaturchaninova/Downloads")
 ```
 #### 1 Написатифункціюpmean,якаобчислюєсереднєзначення(mean) забруднення сульфатами або нітратами серед заданого переліка моніторів. Ця функція приймає три аргументи: «directory», «pollutant», «id». Directory – папка, в якій розміщені дані, pollutant – вид забруднення, id – перелік моніторів. Аргумент id має значення за замовчуванням 1:332. Функція повинна ігнорувати NA значення.
 #
