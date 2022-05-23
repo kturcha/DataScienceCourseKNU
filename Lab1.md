@@ -87,7 +87,7 @@ length_NA
 ```{r}
 n <- c(2, 3, 5)
 s <- c("aa", "bb", "cc")
-b <- c(TRUE, FALSE, TRUE)
+b <- c(FALSE, FALSE, TRUE)
 data_frame <- data.frame(num = n, char = s, bool = b)
 data_frame
 ```
@@ -95,7 +95,7 @@ data_frame
 
 |    |num |char|bool |
 |----|----|----|---- |
-|1   |2   |aa  |TRUE |
+|1   |2   |aa  |FALSE|
 |2   |3   |bb  |FALSE|
 |3   |5   |cc  |TRUE |
 #### 8.	Змінити імена стовпців цього data frame.
@@ -107,6 +107,6 @@ data_frame
 
 |    |numbers |characters|booleans |
 |----|-----   |-----     |-----    |
-|1   |2       |aa        |TRUE     |
+|1   |2       |aa        |FALSE    |
 |2   |3       |bb        |FALSE    |
 |3   |5       |cc        |TRUE     |
